@@ -255,6 +255,7 @@ html{
   width: 100vw;
   height: 84vh;
   padding: 10px 10px 0 10px;
+  border-radius: 15px;
 }
 
 .project_card {
@@ -265,6 +266,7 @@ html{
   justify-content: space-between;
   padding: 25px 25px 25px 25px;
   margin: 21px 40px 0 40px;
+  border-radius: 15px;
   box-shadow: 0px 0px 20px 1px rgb(148, 243, 239);
 }
 .card_description h1 {
