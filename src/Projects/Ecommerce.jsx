@@ -5,10 +5,10 @@ import img1 from "../imgaes/wagonM.png";
 
 export default function SinglePgApp(props) {
   const heading ="Ecommerce Application";
-  const desc ="  I have created Single page application for website developmentcompatible on both desktop and mobile with Home ,About, Services and Contact page. "
+  const desc =" I have created an E-commerce Application where user can browse products add them in cart, compatible with Laptop, Tab, Mobile. "
   const para = "Compatible with desktop, iPad, mobile all devices."
    const techTitle = "Tech Stack used:"
-    const techDesc ="HTML, CSS , Bootstrap , JavaScript, Nodejs (Express) , MongoDB"
+    const techDesc ="React.js, JavaScript, React-Redux, css,"
   const linkTo = "https://wagon-fashions-divs94.vercel.app/"
   const linkText = "www.wagon.com";
  

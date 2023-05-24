@@ -312,20 +312,14 @@ html{
 .card_description a {
   border: 1px solid rgb(230, 44, 202);
   background-color: rgb(14, 21, 42);
-  padding: 12px;
+  padding: 15px 25px;
   margin-left: 15px;
   border-radius: 35px;
   font-size: 1.5rem;
   color: rgb(5, 252, 125);
   box-shadow: 0px 0px 10px 1px rgb(148, 243, 239);
 }
-/* .card_description a:hover{
-  transition: all 1s;
-  border: 1px solid rgb(230, 44, 202);
-  background-color: rgb(5, 252, 125);
-  color:rgb(14, 21, 42); 
-  box-shadow:0px 0px 10px 1px rgb(230, 44, 202);
-} */
+
 .card_description a:hover {
   transition: all 1s;
   border: 1px solid rgb(230, 44, 202);
@@ -652,7 +646,9 @@ width: 150vw;
   }
 
   .about_head p {
-    font-size: 0.8rem;
+   
+      font-size: 1rem;
+      padding: 20px 14px;
   }
   .about_head h3 {
     font-size: 1.3rem;
@@ -867,9 +863,9 @@ width: 150vw;
     display: none;
   }
   .card_description a {
-    padding: 4px;
-    margin-left: 4px;
+    padding: 10px 15px;
     border-radius: 15px;
+    font-size: 1rem;
   }
   .card_image .img2 {
     display: none;
