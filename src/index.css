@@ -404,6 +404,7 @@ background-color: black;
   align-items: center;
   justify-items: center;
   width: 100vw;
+  height: 80vh;
   /* margin-bottom: 105px; */
 }
 .contact_card ul {
