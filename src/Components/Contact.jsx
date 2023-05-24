@@ -28,7 +28,7 @@ export default function Contact() {
                     <span>
                       <a
                         target="_/blank"
-                        href="mailto: divyatlng0@gmail.com ? Cc= tlngdivya@gmail.com"
+                        href="mailto:divyatlng0@gmail.com ? Cc= tlngdivya@gmail.com"
                       >
                         divyatlng0@gmail.com
                       </a>

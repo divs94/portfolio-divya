@@ -128,9 +128,9 @@ html{
   
 }
 .home_section .mypic img{
-  margin: -20px;
+  margin: 50px;
+ max-width: 45vw;
   border-radius: 40px;
-  width: 31vw;
   height: 68vh;
   /* display: none; */
 
@@ -409,7 +409,7 @@ background-color: black;
 }
 .contact_card ul {
   list-style: none;
-  padding: 2rem;
+  padding: 0rem;
 }
 .contact_card ul li {
   display: flex;
@@ -610,6 +610,14 @@ width: 150vw;
     border-radius: 25px;
     box-shadow: 0px 0px 20px 1px rgb(148, 243, 239) inset;
     
+  }
+  .home_section .mypic img{
+    margin: 50px;
+   max-width: 45vw;
+    border-radius: 40px;
+    height: 68vh;
+    /* display: none; */
+  
   }
   .home_section .home_head{
     margin-left: 35px;
@@ -921,7 +929,10 @@ width: 150vw;
   .contact_header h3 {
     font-size: 1.5rem;
   }
-
+  .contact_header ol {
+    list-style: none;
+    padding-left: 0;
+  }
   .contact_header ol li {
     padding: 11px;
     margin: 14px;
@@ -972,7 +983,7 @@ height: 75vh;
     align-items: center;
     text-align: start;
     margin: 0px auto;
-    font-size: 3.6rem;
+    font-size: 2.6rem;
     padding: 10px;
 
   }
