@@ -373,7 +373,7 @@ html{
 }
 .contact_header ol li {
   background-color: black;
-  padding: 6.5px;
+  padding: 10px;
   border-radius: 5px;
   width: 60vw;
   background-color: rgb(12, 16, 19);
@@ -418,7 +418,7 @@ background-color: black;
   justify-items: center;
   width: 100vw;
   height: 78vh;
-  overflow-y: hidden;
+   overflow-y: hidden;
   overflow-x: hidden;
   /* margin-bottom: 105px; */
 }
