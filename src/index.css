@@ -45,7 +45,7 @@ html{
   margin: 0 80px 0 80px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  box-shadow: 0px 0px 5px 1px rgb(148, 243, 239) inset;
+  box-shadow: 0px 0px 4px 1px rgb(199, 248, 245) inset;
 
 }
 
@@ -54,26 +54,31 @@ html{
   height: 6vh;
 }
 .navbar .nav_brand {
-  color: aqua;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
 }
 .navbar .nav_brand:hover {
-  color: rgb(230, 44, 202);
+  color: rgb(236, 109, 217);
   transition: 1s all;
 
 }
 .navbar .nav_links {
   color: cyan;
+  font-size: 1.2rem;
+
 }
 .navbar .nav_links:hover {
-  color: rgb(230, 44, 202);
+  color: rgb(241, 148, 227);
   transition: 1s all;
 
 }
 .navbar #basic-nav-dropdown {
   color: cyan;
+  font-size: 1.2rem;
+
 }
 .navbar #basic-nav-dropdown:hover {
-  color: rgb(230, 44, 202);
+  color: rgb(241, 148, 227);
   transition: 1s all;
 
 }
@@ -101,6 +106,7 @@ html{
 .footer a {
   color: rgb(230, 44, 202);
 }
+
 /* home section **************/
 .home_section {
   height: 84vh;
@@ -120,7 +126,7 @@ html{
   margin-top: 25px;
   padding: 50px;
   border-radius: 25px;
-  box-shadow: 0px 0px 20px 1px rgb(148, 243, 239) inset;
+  box-shadow: 0px 0px 10px 1px rgb(148, 243, 239) inset;
   
 }
 .home_head h1{
@@ -129,11 +135,21 @@ html{
 .home_head h3{
   color: gold;
 }
+.home_head h1:hover{
+  color: rgb(254, 254, 254);
+  transition: 1s all;
+
+}
+.home_head h3:hover{
+  color: rgb(254, 254, 254);
+  transition: 1s all;
+
+}
 .home_section p:hover{
   transition: 1s all;
-  color: goldenrod;
+  color: rgb(254, 254, 254);
   background-color:rgb(1, 0, 6) ;
-  box-shadow: 0px 0px 10px 1px rgba(255, 240, 79, 0.595) inset;
+  box-shadow: 0px 0px 5px 1px rgb(254, 254, 254) inset;
   transition: 1s all;
 
   
@@ -238,14 +254,18 @@ html{
   width: 70vw;
   padding: 20px;
   margin: 20px;
-  box-shadow: inset 0 -3em 3em rgba(130, 234, 234, 0.1),
-    0 0 0 2px rgb(148, 243, 239), 0.3em 0.3em 1em rgba(55, 218, 223, 0.356);
+  box-shadow: 0px 0px 10px 1px rgb(186, 195, 194);
+  border-radius: 12px;
+ 
 }
 .carousel_card:hover {
-  background-color: white;
-  color: rgb(8, 26, 35);
-  transition: all 1s;
+  background-color: rgba(34, 47, 48, 0.698);
+  color: rgb(213, 223, 227);
+  transition: all  0.75s;
   cursor: pointer;
+  box-shadow: inset 0 -3em 3em rgba(130, 234, 234, 0.1),
+  0 0 0 2px rgb(148, 243, 239), 0.3em 0.3em 1em rgba(55, 218, 223, 0.356);
+border-radius: 12px;
 }
 .carousel_card h3 {
   color: gold;
@@ -377,7 +397,7 @@ html{
   border-radius: 5px;
   width: 60vw;
   background-color: rgb(12, 16, 19);
-  color: cyan;
+  color: rgb(191, 249, 249);
   margin: 10px;
   font-size: 1.1rem;
   text-align: center;
@@ -434,7 +454,7 @@ background-color: black;
   border-radius: 15px;
   width: 55vw;
   background-color: rgb(12, 16, 19);
-  color: cyan;
+  color: rgb(191, 249, 249);
   margin: 7px;
   font-size: 1.2rem;
   text-align: center;
