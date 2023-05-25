@@ -155,16 +155,7 @@ export default function Contact() {
           </div>
       </Tab>
       
-    </Tabs>
-
-
-
-
-
-
-         
-
-         
+    </Tabs> 
  
       </section>
     </>

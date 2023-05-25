@@ -58,18 +58,24 @@ html{
 }
 .navbar .nav_brand:hover {
   color: rgb(230, 44, 202);
+  transition: 1s all;
+
 }
 .navbar .nav_links {
   color: cyan;
 }
 .navbar .nav_links:hover {
   color: rgb(230, 44, 202);
+  transition: 1s all;
+
 }
 .navbar #basic-nav-dropdown {
   color: cyan;
 }
 .navbar #basic-nav-dropdown:hover {
   color: rgb(230, 44, 202);
+  transition: 1s all;
+
 }
 .navbar-toggler-icon {
   color: rgb(230, 44, 202);
@@ -128,6 +134,8 @@ html{
   color: goldenrod;
   background-color:rgb(1, 0, 6) ;
   box-shadow: 0px 0px 10px 1px rgba(255, 240, 79, 0.595) inset;
+  transition: 1s all;
+
   
 }
 .home_section .mypic img{
@@ -201,6 +209,8 @@ html{
   transition: 1s all;
   background-color:rgb(6, 2, 32) ;
   box-shadow: 0px 0px 30px 1px rgba(241, 111, 200, 0.595) inset;
+  transition: 1s all;
+
 
 }
 .skills_wrapper .skill_card p {
@@ -336,7 +346,7 @@ html{
 /* contact section styless*********0 */
 .contact_section {
   width: 100vw;
-  height: auto;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-self: center;
@@ -352,7 +362,8 @@ html{
   align-items: center;
   justify-items: center;
   width: 100vw;
-  margin-top: 30px;
+  /* height: 75vh; */
+  margin-top: 50px;
   /* margin-bottom: 105px; */
 }
 .contact_header ol {
@@ -360,9 +371,9 @@ html{
 }
 .contact_header ol li {
   background-color: black;
-  padding: 5px;
+  padding: 8px;
   border-radius: 5px;
-  width: 65vw;
+  width: 60vw;
   background-color: rgb(12, 16, 19);
   color: cyan;
   margin: 10px;
@@ -373,6 +384,7 @@ html{
 .contact_header ol li:hover {
   background-color: rgb(31, 31, 36);
   cursor: pointer;
+  transition: 1s all;
 }
 
 .contact_letter{
@@ -403,7 +415,7 @@ background-color: black;
   align-items: center;
   justify-items: center;
   width: 100vw;
-  height: 80vh;
+  height: 82vh;
   /* margin-bottom: 105px; */
 }
 .contact_card ul {
@@ -416,7 +428,7 @@ background-color: black;
   justify-items: space-between;
   padding: 4px;
   border-radius: 15px;
-  width: 65vw;
+  width: 55vw;
   background-color: rgb(12, 16, 19);
   color: cyan;
   margin: 7px;
@@ -426,12 +438,16 @@ background-color: black;
 .contact_card ul li:hover {
   background-color: rgb(31, 31, 36);
   cursor: pointer;
+  transition: 1s all;
+
 }
 .contact_card ul li span {
   padding: 8px;
 }
 .contact_card ul li a {
   color: rgb(230, 44, 202);
+  padding: 5px;
+  text-align: center;
 }
 .contact_card ul li a {
   text-decoration: none;
