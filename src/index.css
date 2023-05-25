@@ -364,6 +364,8 @@ html{
   width: 100vw;
   /* height: 75vh; */
   margin-top: 50px;
+  overflow-y: hidden;
+  overflow-x: hidden;
   /* margin-bottom: 105px; */
 }
 .contact_header ol {
@@ -371,7 +373,7 @@ html{
 }
 .contact_header ol li {
   background-color: black;
-  padding: 8px;
+  padding: 6.5px;
   border-radius: 5px;
   width: 60vw;
   background-color: rgb(12, 16, 19);
@@ -415,7 +417,9 @@ background-color: black;
   align-items: center;
   justify-items: center;
   width: 100vw;
-  height: 82vh;
+  height: 78vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
   /* margin-bottom: 105px; */
 }
 .contact_card ul {
