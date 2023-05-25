@@ -35,13 +35,13 @@ export default function Experience() {
 
                 <strong>Patient Portal :</strong>{" "}
                 <a target="_/blank" href="https://patient.oaktreeconnect.co.uk/signin">
-                https://patient.oaktreeconnect.co.uk/signin/
+                https://patient.oaktreeconnect.co.uk/
                 </a>
               <hr />
 
                 <strong>Practitioner Portal :</strong>{" "}
                 <a target="_/blank" href="https://practitioner.oaktreeconnect.co.uk/signin">
-                https://practitioner.oaktreeconnect.co.uk/signin/
+                https://practitioner.oaktreeconnect.co.uk/
                 </a>
               
               <hr />
