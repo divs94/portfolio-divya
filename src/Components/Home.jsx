@@ -20,7 +20,7 @@ export default function Home() {
         <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
           <div className="home_head">
           <h1>I Am Divya Tailang</h1>
-          <h3>Software Developer | Web Designer</h3>
+          <h3>UI/UX Designer | Software Developer</h3>
           </div>
           <p>  I’m a Front-End developer. I usually love to work with{" "}
                  <span>HTML, CSS, JavaScript, React.js</span>{" "}
