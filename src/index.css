@@ -1332,7 +1332,7 @@ width: 150vw;
     justify-content: center;
     align-items: center;
     justify-items: center;
-    height:75vh;
+    height:63vh;
     cursor: pointer;
 
   }
@@ -1344,7 +1344,7 @@ width: 150vw;
     justify-items: center;
     display: inline-block;
     position: relative;
-    left: 0% !important;
+    left: 3% !important;
     height: 300px;
   }
 }
