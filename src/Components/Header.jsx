@@ -3,6 +3,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Avatar from '@mui/material/Avatar';
+import porfoliopic from "../imgaes/portfolioPic.svg";
 import Logo from "../imgaes/LOGO.svg";
 
 export default function Header() {
@@ -10,7 +12,10 @@ export default function Header() {
     <>
       <Navbar className="navbar" expand="lg">
         <Container >
-          <Navbar.Brand className="nav_brand" href="/"><img className="logo" src={Logo} alt="logo" />Divya T.</Navbar.Brand>
+          <Navbar.Brand className="nav_brand" href="/"> <span 
+          style={{display:"flex", flexDirection:"row", justifyContent:"center", alignContent:"center", alignItems:"center"}} >
+            <Avatar alt="Divya Tailang" src={porfoliopic} style={{border:"2px solid cyan"}}/> <span style={{margin:"10px", fontStyle:"strong", color:"cyan"}}>@iamdivs</span> </span>
+            </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
