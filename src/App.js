@@ -10,6 +10,7 @@ import Ecommerce from "./Projects/Ecommerce";
 import ColorGame from "./Projects/ColorGame";
 import AboutMe from "./Components/AboutMe";
 import Footer from "./Components/Footer";
+import Design from "./Components/Design";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact active path="/" element={<Home/>} />
           <Route exact path="/experience" element={<Experience/>} />
           <Route exact path="/contact" element={<Contact/>} />
+          <Route exact path="/mydesign" element={<Design/>} />
           <Route exact path="/wagon" element={<Ecommerce/>} />
           <Route exact path="/color-game" element={<ColorGame/>} />
           <Route exact path="/about-me" element={<AboutMe/>} />

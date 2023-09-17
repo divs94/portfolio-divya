@@ -20,6 +20,9 @@ export default function Header() {
 
               {/* dropdown for project */}
               <NavDropdown title="Projects" id="basic-nav-dropdown">
+              <NavDropdown.Item className="drop_link" href="/mydesign">
+                  UI/UX Designs
+                </NavDropdown.Item>
                 <NavDropdown.Item className="drop_link" href="/wagon">
                   Ecommerce App
                 </NavDropdown.Item>
