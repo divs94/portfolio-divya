@@ -571,6 +571,11 @@ background-color: black;
     height: 73.5vh;
     cursor: pointer;
   }
+  .carousel-item h2{
+text-align: center;
+padding: 5px 0;
+color: aquamarine;
+  }
   .carousel img{
     display: flex;
     flex-direction: column;
@@ -579,8 +584,8 @@ background-color: black;
     justify-items: center;
     display: inline-block;
     position: relative;
-    left: 28%;
-    height: 500px;
+    left: 33%;
+    height: 400px;
     padding: 10px 0px;
   }
   .carousel-indicators {
@@ -621,7 +626,7 @@ background-color: black;
     justify-items: center;
     display: inline-block;
     position: relative;
-    left: 28%;
+    left: 25%;
     height: 500px;
   }
 }
