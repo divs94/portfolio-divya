@@ -1,20 +1,21 @@
 import React from "react";
 import porfoliopic from "../imgaes/portfolioPic.svg";
 
-export default function () {
+
+const AboutMe = () => {
   return (
     <>
       <div className="about_section">
         <div className="about_head">
           <div>
-            <img className="about_image" src={porfoliopic} alt="image" />
+            <img className="about_image" src={porfoliopic} alt="img" />
           </div>
           <div>
             <span>
               <h1>Divya T.</h1>
             </span>
             <div>
-            <hr/>
+              <hr />
               <p>
                 Self motivated, self dedicated, self learner, these words which
                 are enough to Make a Successful satisfied Life. Divya is a
@@ -41,11 +42,11 @@ export default function () {
                 React js, JavaScript, CSS, Node js, NoSQL . Being as a Software
                 Developer and UI/UX Designer She love to Design applications
                 with modern technology tools and trends.
-                <br/>
-                <br/>
-            
+                <br />
+                <br />
+
                 <blockquote className="about_contact">
-                <hr/>
+                  <hr />
                   <h3>Need A Web Developer & Designer</h3>
                   <span className="contact_title">Send me an Email : </span>
                   <span>
@@ -53,11 +54,11 @@ export default function () {
                       divyatlng0@gmail.com
                     </a>
                   </span>
-                  <br/>
+                  <br />
                   <span className="contact_title">Contact me at : </span>
                   <span>
                     <a target="_/blank" href="tel:+917019898582">
-                       +91 7019898582
+                      +91 7019898582
                     </a>
                   </span>
                 </blockquote>
@@ -90,7 +91,7 @@ export default function () {
             <div>
               {" "}
               <ul>
-                <li>Bootstrap(with Excellence</li>
+                <li>Bootstrap(with Excellence)</li>
                 <li>JavaScript (with Excellence)</li>
                 <li>React.js(with Excellence)</li>
               </ul>
@@ -101,3 +102,4 @@ export default function () {
     </>
   );
 }
+export default AboutMe ;

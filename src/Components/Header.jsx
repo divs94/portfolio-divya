@@ -5,45 +5,62 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Avatar from '@mui/material/Avatar';
 import porfoliopic from "../imgaes/portfolioPic.svg";
-import Logo from "../imgaes/LOGO.svg";
+import pdfFile from '../myresume.pdf';
 
 export default function Header() {
   return (
     <>
       <Navbar className="navbar" expand="lg">
         <Container >
-          <Navbar.Brand className="nav_brand" href="/"> <span 
-          style={{display:"flex", flexDirection:"row", justifyContent:"center", alignContent:"center", alignItems:"center"}} >
-            <Avatar alt="Divya Tailang" src={porfoliopic} style={{border:"2px solid cyan"}}/> <span style={{margin:"10px", fontStyle:"strong", color:"cyan"}}>@iamdivs</span> </span>
-            </Navbar.Brand>
+          <Navbar.Brand className="nav_brand" href="/"> <span
+            style={{ display: "flex", flexDirection: "row", justifyContent: "center", alignContent: "center", alignItems: "center" }} >
+            <Avatar alt="Divya Tailang" src={porfoliopic} style={{ border: "2px solid cyan" }} /> <span style={{ margin: "10px", fontStyle: "strong", color: "cyan" }}>@iamdivs</span> </span>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link className="nav_links" href="/">Home</Nav.Link>
+             
 
+              <Nav.Link className="nav_links" target="_/blank" href={pdfFile}>
+                My CV
+              </Nav.Link>
+              
               <Nav.Link className="nav_links" href="/experience">Experience</Nav.Link>
 
               {/* dropdown for project */}
               <NavDropdown title="Projects" id="basic-nav-dropdown">
-              <NavDropdown.Item className="drop_link" href="/mydesign">
-                  UI/UX Designs
-                </NavDropdown.Item>
+                {/* AllProject */}
                 <NavDropdown.Item className="drop_link" href="/wagon">
                   Ecommerce App
                 </NavDropdown.Item>
 
                 <NavDropdown.Item className="drop_link" href="color-game">
-                 Color Game
+                  Color Game
                 </NavDropdown.Item>
 
                 <NavDropdown.Divider />
                 <NavDropdown.Item className="drop_link" href="/about-me">
-                 About Me
+                  About Me
+                </NavDropdown.Item>
+              </NavDropdown>
+
+              {/* dropdown for Design */}
+              <NavDropdown title="Designs" id="basic-nav-dropdown">
+                <NavDropdown.Item className="drop_link" href="/mydesign">
+                  UI/UX Designs
+                </NavDropdown.Item>
+                <NavDropdown.Item className="drop_link" target="_/blank" href="https://dribbble.com/iam_divs">
+                  Dribble
+                </NavDropdown.Item>
+                <NavDropdown.Item className="drop_link" target="_/blank" href="https://www.behance.net/divyatailang">
+                  Behance
                 </NavDropdown.Item>
               </NavDropdown>
 
               <Nav.Link className="nav_links" href="/contact">Contact Me</Nav.Link>
-                
+              
+
             </Nav>
           </Navbar.Collapse>
         </Container>

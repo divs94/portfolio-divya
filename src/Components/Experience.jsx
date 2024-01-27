@@ -1,10 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function Experience() {
   return (
     <>
       <div className="experience_wrapper">
         <h1>Professional Experience</h1>
+        <div className="carousel_card">
+          <h3>Primus Learning </h3>
+          <h5>
+            <div>Role : UI/UX Designer</div>
+            <div>Sep. 2023 – Nov. 2023</div>
+          </h5>
+          <p>
+
+            <hr />
+           - Primus Learning is a web E-Learning Appliction which provides development opportunities 
+            to candidates.
+            <br />
+           - Worked on Figma for Designing Education-learning plateform.
+            <hr />
+
+            Location: Remote
+
+          </p>
+        </div>
         <div className="carousel_card">
           <h3>OaktreeConnect India PVT. LTD. </h3>
           <h5>
@@ -122,6 +141,25 @@ export default function Experience() {
             <a target="_/blank" href="https://www.searchnplays.com/">
               https://www.searchnplays.com/
             </a>
+
+
+          </p>
+        </div>
+        <div className="carousel_card">
+          <h3>Daily Hunt </h3>
+          <h5>
+            <div>Role : Video curator</div>
+            <div>Dec 2019 – Feb 2021</div>
+          </h5>
+          <p>
+
+            <hr />
+            Daily Hunt is a daily news and entertainment application which provides users daily fresh and entertaining news.
+            <hr />
+
+            Working Daily Hunt application where i used to optimise videos and content to get published on application.
+            <hr />
+            Location: Bengaluru, Karnataka
 
 
           </p>

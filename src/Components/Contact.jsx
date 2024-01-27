@@ -1,9 +1,6 @@
 import React from "react";
-
-import Carousel from 'react-bootstrap/Carousel';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import Table from 'react-bootstrap/Table';
 
 export default function Contact() {
   return (
